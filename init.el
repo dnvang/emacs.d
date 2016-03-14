@@ -161,6 +161,7 @@
 
 (add-hook 'go-mode-hook 'my-go-mode-hook)
 (add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
+(add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)
 (global-company-mode 1)
 (column-number-mode 1)
 (global-auto-revert-mode 1)
